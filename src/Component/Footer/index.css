@@ -1,0 +1,79 @@
+
+.footer-bg{
+  background-color: #383838;
+  width: 100%;
+}
+.footer-bg ul li{
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+}
+.footer-bg ul li a{
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 0;
+  font-size: 12px;
+}
+.footer-bg ul li span {
+ padding-left: 30px;
+}
+.footer-bg ul li a:hover{
+ 
+  color: rgb(39, 255, 239);
+}
+.footer-bg p{
+  margin-left: 38px;
+  color: #FFF;
+  font-size: 12px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.footer-bg .icons{
+  
+  margin-top: 60px;
+  left: 60px;
+
+}
+
+.footer-copyright{
+	background-color: #0891f9;
+	color: #fff;
+}
+.footer-copyright span{
+	margin-right: 80px;
+}
+.fb{
+	height: 50px; 
+	width: 25px; 
+	margin-bottom: 8px;
+}
+.insta{
+	height: 50px;
+	width: 50px;
+}
+.twiter{
+	height: 40px; 
+	width: 45px; 
+	margin-top: 8px; 
+	margin-bottom: 8px;
+}
+.linkedin{
+	height: 50px; 
+	width: 55px; 
+	margin-bottom: 8px;
+}
+.pintrest{
+	height: 50px; 
+	width: 50px; 
+	margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+	.footer-bg .icons{
+  
+  margin-top: 20px;
+  left: 60px;
+
+}
+}

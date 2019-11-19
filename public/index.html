@@ -1,34 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html >
+<html lang="en" >
   <head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"> -->
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+  
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <!-- <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+    <!-- <link rel="stylesheet" href="css/animate.css">
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+<link rel="stylesheet" href="css/icomoon.css"> -->
+
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/flexslider.css">
+
+<!-- <link rel="stylesheet" href="css/magnific-popup.css">
+
+
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+<link rel="stylesheet" href="css/fonts/flaticon/font/flaticon.css"> -->
+    
+    
+    <lit src="../dist/remodal.min.js"></script>
+    <script crossorigin src="..."></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
     <title>React App</title>
+    <style>
+       
+       .right-to-left {
+    /* float:right; */
+    direction: rtl;
+}
+    </style>
   </head>
-  <body>
+  <body style='background-color: #d0d0d0'>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- <h1>My Web Page</h1>
+
+    <p>Hello everybody!</p>
+    
+    <p>Translate this page:</p>
+    
+    <div id="google_translate_element"></div> -->
+    
+   
+    <!-- <ul class="list-unstyled list-inline ct-topbar__list">
+      <li class="ct-language">Language <i class="fa fa-arrow-down"></i>
+      <ul class="list-unstyled ct-language__dropdown">
+        <li><a href="#googtrans(en|en)" class="lang-en lang-select" data-lang="en"><img className='img-lang' src="https://www.solodev.com/assets/google-translate/flag-usa.png" alt="USA"/></a></li>
+        <li><a href="#googtrans(en|ar)" class="lang-es lang-select" data-lang="ar"><img className='img-lang' src="http://icons.iconarchive.com/icons/custom-icon-design/all-country-flag/256/Saudi-Arabia-Flag-icon.png" alt="JAPAN"/></a></li>
+  
+      </ul>
+      </li>
+    </ul> -->
+    <!-- <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
     <div id="root"></div>
+    <!-- <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+      }
+      </script> -->
+    <!-- <script src="bundle.js"></script> -->
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -39,5 +87,232 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script>
+      
+
+
+
+      // window.onscroll = function() {myFunction()};
+
+//  function myFunction() {
+//   if (document.documentElement.scrollTop > 0 ) {
+//     document.getElementById("mynav").className = "mynav1";
+//   } else {
+//     document.getElementById("mynav").className = "mynav";
+//   }
+// }
+// $('.mynav .menu').hide()
+// $('.mynav .bars').click(function()
+// {
+
+// 	$('.mynav .menu').toggle();
+// })
+      </script>
+       <!-- <script src="js/jquery-3.4.1.min.js"></script> -->
+       <!-- <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.SIMPLE}, 'google_translate_element');
+        }
+    
+      function triggerHtmlEvent(element, eventName) {
+        var event;
+        if (document.createEvent) {
+        event = document.createEvent('HTMLEvents');
+        event.initEvent(eventName, true, true);
+        element.dispatchEvent(event);
+        } else {
+        event = document.createEventObject();
+        event.eventType = eventName;
+        element.fireEvent('on' + event.eventType, event);
+        }
+      }
+      
+    
+      jQuery('.lang-select').click(function() {
+        var theLang = jQuery(this).attr('data-lang');
+        
+        /*if (theLang=="ar") {
+          $("body").addClass("change_direction_according_ar");
+      
+          }*/
+          var d = new Date();
+          var exdays=365;
+          cookie_name_trans="cookie_name_trans";
+          d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+          var expires = "expires="+d.toUTCString();
+          document.cookie = cookie_name_trans + "=" + theLang + ";" + expires + ";path=/";
+    
+      //  console.log(document.cookie('cookie_name_trans'));
+        $.cookie('trans_val',theLang);
+        jQuery('.goog-te-combo').val(theLang);
+        console.debug($.cookie('trans_val'));
+        console.debug($.cookie('trans_val'));
+    
+    
+        //alert(jQuery(this).attr('href'));
+        window.location = jQuery(this).attr('href');
+        location.reload();
+        
+      });
+      function getCookie(cname) {
+      var name = cname + "=";
+      var decodedCookie = decodeURIComponent(document.cookie);
+      var ca = decodedCookie.split(';');
+      for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+        }
+      }
+      return "";
+    }
+    console.log(getCookie('cookie_name_trans'));
+    if (getCookie('cookie_name_trans')=="ar") {
+       $("body").addClass("change_direction_according_ar");
+       $("#eng").hide();
+       $("#ar").show();
+    
+      
+    }
+    if (getCookie('cookie_name_trans')=="en") {
+       
+       $("#eng").show();
+       $("#ar").hide();
+    
+      
+    }
+    </script> -->
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,ar', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+        // Cookies.set('malik', 'aamir');
+        // document.cookie = "username=John Doe";
+        function triggerHtmlEvent(element, eventName) {
+	  var event;
+	  if (document.createEvent) {
+		event = document.createEvent('HTMLEvents');
+		event.initEvent(eventName, true, true);
+		element.dispatchEvent(event);
+	  } else {
+		event = document.createEventObject();
+		event.eventType = eventName;
+		element.fireEvent('on' + event.eventType, event);
+	  }
+	}
+	
+
+	jQuery('.lang-select').click(function() {
+	  var theLang = jQuery(this).attr('data-lang');
+	  
+	  /*if (theLang=="ar") {
+	  	$("body").addClass("change_direction_according_ar");
+	
+	    }*/
+		  var d = new Date();
+		  var exdays=365;
+		  cookie_name_trans="cookie_name_trans";
+		  d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+		  var expires = "expires="+d.toUTCString();
+		  document.cookie = cookie_name_trans + "=" + theLang + ";" + expires + ";path=/";
+
+	 console.log(document.cookie('cookie_name_trans'));
+    $.cookie('trans_val',theLang);
+    document.cookie = "username="+theLang;
+    
+	  jQuery('.goog-te-combo').val(theLang);
+	  console.debug($.cookie('trans_val'));
+	  console.debug($.cookie('trans_val'));
+
+
+	  //alert(jQuery(this).attr('href'));
+	  window.location = jQuery(this).attr('href');
+	  location.reload();
+	  
+	});
+	function getCookie(cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i <ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+console.log(getCookie('cookie_name_trans'));
+if (getCookie('cookie_name_trans')=="ar") {
+ 	$("body").addClass("change_direction_according_ar");
+ 	$("#eng").hide();
+ 	$("#ar").show();
+
+	
+}
+if (getCookie('cookie_name_trans')=="en") {
+ 	
+ 	$("#eng").show();
+ 	$("#ar").hide();
+
+	
+}
+   
+      }
+      </script>
+      <script>
+        // $(document).ready(function(){
+        //      $("html[lang=ar]").attr("dir", "rtl")
+        //         .find("body").addClass(".right-to-left");
+        // });
+        </script>
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      <!-- <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+        }
+    
+      function triggerHtmlEvent(element, eventName) {
+        var event;
+        if (document.createEvent) {
+        event = document.createEvent('HTMLEvents');
+        event.initEvent(eventName, true, true);
+        element.dispatchEvent(event);
+        } else {
+        event = document.createEventObject();
+        event.eventType = eventName;
+        element.fireEvent('on' + event.eventType, event);
+        }
+      }
+    
+      jQuery('.lang-select').click(function() {
+        var theLang = jQuery(this).attr('data-lang');
+        jQuery('.goog-te-combo').val(theLang);
+    
+        //alert(jQuery(this).attr('href'));
+        window.location = jQuery(this).attr('href');
+        location.reload();
+    
+      });
+      </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+      <!-- <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+    
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<script src="ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js" data-cf-settings="ffdbe378203238d08d7ac852-|49" defer=""></script>
+
+        <!-- <script src="js/script.js"></script> -->
   </body>
 </html>
